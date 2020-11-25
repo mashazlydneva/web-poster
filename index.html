@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>web-plakat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/style.css">
+  </head>
+  <body>
+    <style media="screen">
+      body {
+        width: 1790px;
+        margin: 0 auto;
+        background: white;
+        height: 9492px;
+        display: block;
+        position: relative;
+        overflow-y: scroll;
+      }
+      body::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        background: url('images/background.png');
+        height: 100%;
+        display:block;
+        opacity: .2;
+      }
+      html {
+        background: #bbb;
+        position: relative;
+        height: 100%;
+      }
+
+      .line img {
+        position: relative;
+        width: 587.85px;
+height: 290.66px;
+left: 1134.94px;
+        top: 62px;
+      }
+      .title {
+        position: relative;
+        width: 762px;
+        height: 223px;
+        left: 60px;
+        top: -270px;
+        font-size: 36px;
+      }
+      .title img{
+        position: relative;
+        width: 993.21px;
+        height: 194.21px;
+        left: 0px;
+        top: 10px;
+      }
+      .cloud img {
+        position: relative;
+        width: 1287.78px;
+        height: 394.94px;
+        left: 435px;
+        top: -150px;
+      }
+      .text {
+        position: relative;
+        width: 900px;
+        left: 39.83%;
+        right: 7.77%;
+        top: 5.16%;
+        bottom: 92.58%;
+        top: -500px;
+        font-size: 30px;
+      }
+      .window {
+        position: relative;
+        width: 243px;
+        height: 348px;
+        left: 751px;
+        top: -370px;
+        display: inline-block;
+        background: url('images/Rectangle 30.png');
+      }
+      .inthewindow {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 40px;
+        height: 273px;
+        width: 243px;
+        background: url('images/Frame 4.png');
+        animation: tr 1s steps(1) alternate infinite;
+      }
+      @keyframes tr {
+        0% {background-position: 0px top;}
+        33%{background-position: -243px top;}
+        66%{background-position: -486px top;}
+      }
+      .window2 {
+        position: relative;
+        width: 243px;
+        height: 348px;
+        left: 850px;
+        /* top: -720px; */
+        top: -370px;
+        display: inline-block;
+        background: url('images/Rectangle 30.png');
+      }
+      .inthewindow2 {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 60px;
+        height: 273px;
+        width: 243px;
+        background: url('images/Frame 4.png');
+        animation: kr 5s steps(1) alternate infinite;
+      }
+      @keyframes kr {
+        0%{background-position: -729px top;}
+        5%{background-position: -972px top;}
+        15%{background-position: -1215px top;}
+        25%{background-position: -972px top;}
+        35%{background-position: -729px top;}
+        45%{background-position: -1458px top;}
+        65%{background-position: -1701px top;}
+        80%{background-position: -1458px top;}
+        90%{background-position: -729px top;}
+      }
+      .window3 {
+        position: relative;
+        width: 243px;
+        height: 348px;
+        left: 950px;
+        /* top: -1065px; */
+        top: -370px;
+        display: inline-block;
+        background: url('images/Rectangle 30.png');
+      }
+      .inthewindow3 {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 60px;
+        height: 273px;
+        width: 243px;
+        background: url('images/Frame 4.png');
+        animation: lines 1s steps(1) alternate infinite;
+      }
+      @keyframes lines {
+        0%{background-position: -1944px top;}
+        25%{background-position: -2187px top;}
+        50%{background-position: -2430px top;}
+        75%{background-position: -2673px top;}
+      }
+
+
+
+    </style>
+
+
+    <div class="line">
+      <img src="images/Group 7.png" alt="">
+    </div>
+
+    <div class="title">
+      <p>как работает завод</p>
+      <img src="images/Frame.png" alt="">
+    </div>
+
+    <div class="cloud">
+      <img src="images/Group 9.png" alt="">
+      <div class="text">
+      <p>Завод производит айсберги для того, чтобы сохранить <br> вечную мерзлоту. Благодаря заводу «Мерзлота» <br> у человечества появится возможность замедлить <br> глобальное потепление.
+     </p>
+      </div>
+    </div>
+
+    <div class="window">
+      <!-- <img src="images/Rectangle 30.png" alt=""> -->
+      <div class="inthewindow">
+        <!-- <img src="images/Frame 4.png" alt=""> -->
+      </div>
+    </div>
+    <div class="window2">
+      <!-- <img src="images/Rectangle 30.png" alt=""> -->
+      <div class="inthewindow2">
+        <img src="" alt="">
+      </div>
+    </div>
+    <div class="window3">
+      <img src="images/Rectangle 30.png" alt="">
+      <div class="inthewindow3">
+        <img src="" alt="">
+      </div>
+    </div>
+
+
+  </body>
+</html>
