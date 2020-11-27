@@ -2,10 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>web-plakat</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/style.css">
   </head>
+
+
   <body>
     <style media="screen">
       body {
@@ -132,7 +135,7 @@ left: 1134.94px;
         position: relative;
         width: 243px;
         height: 348px;
-        left: 950px;
+        left: 960px;
         /* top: -1065px; */
         top: -370px;
         display: inline-block;
@@ -160,20 +163,128 @@ left: 1134.94px;
         width: 1169.33px;
 height: 1807.48px;
 left: 42.67px;
-top: -1050px;
+top: -1040px;
       }
 
       .manylines {
         position: relative;
-        width: 972px;
+        width: 1090px;
         height: 1076px;
-        left: 751px;
-        top: 1221px;
+        left: 710px;
+        top: -2115px;
+        vertical-align: top;
       }
-      
-      .manylines *   {
-      display: inline;
-      margin-left: 20px;
+
+      .manylines *  {
+      display: inline-block;
+      margin-left: 23px;
+      vertical-align: top;
+    }
+
+    .calc {
+      position: relative;
+      width: 636px;
+      height: 1042px;
+      left: 1087px;
+      top: -1990px;
+    }
+    .frame{
+      position: relative;
+      width: 486px;
+      height: 170px;
+      left: 83px;
+      top: -995px;
+      display: inline-block;
+      background: url('images/Rectangle 42.png');
+    }
+
+    .numbers {
+      display: block;
+      position: absolute;
+      left: 80px;
+      top: 60px;
+      height: 170px;
+      width: 486px;
+      background: url('images/Frame 7.png');
+      animation: numbers 10s steps(1) alternate infinite;
+      animation-play-state: paused;
+    }
+    @keyframes numbers {
+      0% {background-position: 0px top;}
+      5% {background-position: -486px top;}
+      10%{background-position: -972px top;}
+      15%{background-position: -1458px top;}
+      20%{background-position: -1944px top;}
+      25%{background-position: -2430px top;}
+      30%{background-position: -2916px top;}
+      35%{background-position: -3402px top;}
+      40%{background-position: -3888px top;}
+      45%{background-position: -4374px top;}
+      50%{background-position: -4860px top;}
+      55%{background-position: -5346px top;}
+      60%{background-position: -5832px top;}
+      65%{background-position: -6318px top;}
+      70%{background-position: -6804px top;}
+      75%{background-position: -7290px top;}
+      80%{background-position: -7776px top;}
+      85%{background-position: -8262px top;}
+      90%{background-position: -8748px top;}
+      95%{background-position: -9234px top;}
+      100%{background-position: -9720px top;}
+      105%{background-position: -10206px top;}
+      110%{background-position: -10692px top;}
+    }
+    .numbers:hover {
+      animation-play-state: running;
+    }
+
+    .side{
+      position: relative;
+      width: 931px;
+      height: 1042px;
+      left: 63px;
+      top: -3200px;
+    }
+    .side p {
+      position: relative;
+      left: 9.39%;
+      right: 44.58%;
+      top: 27.35%;
+      bottom: 70.41%;
+      width: 700px;
+      font-size: 30px;
+      line-height: 37px;
+      color: #FFFFFF;
+    }
+    .side h1{
+      position: relative;
+      left: 9.39%;
+      right: 64.25%;
+      top: 26.69%;
+      bottom: 71.61%;
+      color: #FFFFFF;
+    }
+    .decor {
+      position: relative;
+      width: 795px;
+      height: 371px;
+      left: 78px;
+      top: -1280px;
+
+    }
+    .triangle1{
+      position: relative;
+      width: 450px;
+      height: 359px;
+      left: 0px;
+      top: -725px;
+    }
+    .triangle2{
+      position: relative;
+      width: 584px;
+      height: 478px;
+      left: 347px;
+      top: -1086px;
     }
 
 
@@ -249,6 +360,32 @@ top: -1050px;
       </div>
     </div>
 
+    <div class="calc">
+      <img src="images/Group 23.png" alt="">
+      <div class="frame">
+        <img src="images/Rectangle 42.png" alt="">
+      </div>
+      <div class="numbers">
+        <!-- <img src="images/Frame 7.png" alt=""> -->
+      </div>
+    </div>
+
+    <div class="side">
+      <h1>Калькулятор ледников</h3>
+      <p>Благодаря особой технологии айсберги производятся с высокой скоростью.</p>
+      <img src="images/Group 25.png" alt="">
+      <div class="triangle1">
+        <img src="images/Polygon 1.png" alt="">
+      </div>
+      <div class="triangle2">
+        <img src="images/Polygon 2.png" alt="">
+      </div>
+      <div class="decor">
+        <img src="images/Group 26.png" alt="">
+      </div>
+    </div>
+
 
   </body>
+
 </html>
