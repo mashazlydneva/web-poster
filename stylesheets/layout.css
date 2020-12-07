@@ -1,0 +1,578 @@
+
+  body {
+    width: 1790px;
+    margin: 0 auto;
+    background: white;
+    height: 9492px;
+    display: block;
+    position: relative;
+    overflow-y: scroll;
+  }
+  /* body::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: url('images/background.png');
+    height: 100%;
+    display:block;
+    opacity: .2;
+  } */
+  html {
+    background: #bbb;
+    position: relative;
+    height: 100%;
+  }
+
+  .line img {
+    position: relative;
+    width: 587.85px;
+    height: 290.66px;
+    /* left: 1134.94px;
+    top: 62px; */
+    margin: 62px 0 0 1135px;
+  }
+  .title {
+    position: relative;
+    width: 762px;
+    height: 223px;
+    /* left: 60px;
+    top: -270px; */
+    /* margin: 158.45px 734px 0px 66px; */
+    padding: 158.45px 734px 800px 66px;
+    margin-top: -490px;
+    font-size: 36px;
+  }
+  .title img{
+    position: relative;
+    width: 993.21px;
+    height: 194.21px;
+    left: 0px;
+    top: 10px;
+
+  }
+  .cloud {
+    position: relative;
+    width: 1287.78px;
+    height: 394.94px;
+    margin: 68px 68px 0px 435px;
+    margin-top: -640px;
+    /* background: url('images/Group 9.png'); */
+    background-size: 100%
+  }
+  .cloud img {
+    position: absolute;
+    width:  1287.78px;
+  }
+  .cloud p {
+    position: absolute;
+    overflow:visible;
+    width: 900px;
+    left: 278px;
+    top: 70px;
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .windows  {
+    vertical-align: top;
+    display: block;
+    position: relative;
+    width: 952px;
+    height: 348px;
+    margin: -10px 87px 0px 751px;
+  }
+
+  .window {
+    position: absolute;
+    width: 243px;
+    height: 348px;
+    margin: 0px 709px 0px 0px;
+    display: inline-block;
+    background: url('images/Rectangle 30.png');
+  }
+
+  .inthewindow {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    height: 273px;
+    width: 243px;
+    background: url('images/Frame 4.png');
+    animation: tr 1s steps(1) alternate infinite;
+  }
+
+  .window2 {
+    position: absolute;
+    width: 243px;
+    height: 348px;
+    margin: 0px 354.5px 0px 354.5px;
+    display: inline-block;
+    background: url('images/Rectangle 30.png');
+  }
+  .inthewindow2 {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    height: 273px;
+    width: 243px;
+    background: url('images/Frame 4.png');
+    animation: kr 5s steps(1) alternate infinite;
+  }
+
+  .window3 {
+    position: relative;
+    width: 243px;
+    height: 348px;
+    margin: 0px 0px 0px 709px;
+    display: inline-block;
+    background: url('images/Rectangle 30.png');
+  }
+  .inthewindow3 {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    height: 273px;
+    width: 243px;
+    background: url('images/Frame 4.png');
+    animation: lines 1s steps(1) alternate infinite;
+  }
+
+
+  .factory {
+    position: relative;
+    width: 1169.33px;
+height: 1807.48px;
+margin: -660px 578px 0 46px;
+
+  }
+
+  .manylines {
+    position: relative;
+    width: 1090px;
+    height: 1076px;
+    margin: -1075px 67px 0 706px;
+    vertical-align: top;
+  }
+
+  .manylines *  {
+  display: inline-block;
+  margin-left: 23px;
+  vertical-align: top;
+}
+
+.horizontal {
+  position: relative;
+  width: 1660px;
+  height: 1042px;
+  vertical-align: top;
+  margin: 132px 65px 0 65px;
+}
+
+.calc {
+  position: absolute;
+  width: 636px;
+  height: 1042px;
+  margin: 0 0 0 1024px;
+}
+.frame{
+  position: absolute;
+  width: 486px;
+  height: 170px;
+  left: 83px;
+  top: 78px;
+  display: inline-block;
+  background: url('images/Rectangle 42.png');
+}
+
+.numbers {
+  display: block;
+  position: absolute;
+  left: 80px;
+  top: 80px;
+  height: 170px;
+  width: 486px;
+  background: url('images/Frame 7.png');
+  animation: numbers 10s steps(1) alternate infinite;
+  animation-play-state: paused;
+}
+
+.numbers:hover {
+  animation-play-state: running;
+}
+
+.side{
+  position: absolute;
+  width: 931px;
+  height: 1042px;
+  margin: 0 0 0 0;
+}
+.side p {
+  position: absolute;
+  top: 167px;
+  left: 105px;
+  width: 700px;
+  font-size: 30px;
+  line-height: 37px;
+  color: #FFFFFF;
+}
+.side h1{
+  position: absolute;
+  top: 107px;
+  left: 105px;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+.decor {
+  position: absolute;
+  width: 795px;
+  height: 371px;
+  left: 78px;
+  top: 608px;
+}
+.decor2 {
+  position: absolute;
+  width: 795px;
+  height: 371px;
+  left: 105px;
+  top: 70px;
+}
+.triangle1{
+  position: absolute;
+  width: 450px;
+  height: 359px;
+  left: 0px;
+  top: 324px;
+}
+.triangle2{
+  position: absolute;
+  width: 584px;
+  height: 478px;
+  left: 347px;
+  top: 324px;
+}
+
+.conveyor{
+  width: 1790px;
+  position: relative;
+  display: block;
+  margin: 178px 0 0 0;
+  height: 647px;
+  overflow: hidden;
+}
+
+.conveyor-move {
+  display: inline-block;
+  position: absolute;
+  height: 647px;
+  width: 9436px;
+  background: url('images/Frame 9.png');
+  animation: conveyor 10s linear infinite;
+
+}
+
+.conveyor2{
+  position: relative;
+  width: 1696px;
+  height: 228px;
+  margin: 47px 46px 0px 46px;
+}
+
+.circles {
+  position: absolute;
+  width: 1600px;
+  height: 112px;
+  left: 55px;
+  top: 58px;
+}
+.circles *  {
+display: inline-block;
+margin-left: 28px;
+vertical-align: top;
+}
+
+.mechanism {
+  position: relative;
+  display: block;
+  width: 1696px;
+  height: 1119px;
+  margin: 159px 49px 0 49px;
+  background: url('images/Rectangle 62.png');
+
+}
+    .dots {
+      position: absolute;
+      width: 1503px;
+      height: 933px;
+      left: 96px;
+      top: 95px;
+    }
+    .dot1 {
+      position: absolute;
+      width: 47px;
+      height: 47px;
+      left: 0px;
+      top: 0px;
+    }
+    .dot2 {
+      position: relative;
+      width: 47px;
+      height: 47px;
+      left: 1450px;
+      top: 0px;
+    }
+    .dot3 {
+      position: relative;
+      width: 47px;
+      height: 47px;
+      left: 1450px;
+      top: 790px;
+    }
+    .dot4 {
+      position: relative;
+      width: 47px;
+      height: 47px;
+      left: 0px;
+      top: 790px;
+    }
+    .machine {
+      position: absolute;
+      width: 1400px;
+      height: 870px;
+      top: 165px;
+      left: 120px;
+    }
+    .machine * {
+      display: inline-block;
+      margin-left: 28px;
+    }
+    .machine1 img {
+      margin-top: 0px;
+      animation: spin 50s linear infinite;
+    }
+    .machine2 img {
+      margin-top: -600px;
+      margin-left: 600px;
+      animation: spin2 30s linear infinite;
+    }
+    .machine3 img {
+      margin-left: 400px;
+      margin-top: -200px;
+      animation: spin3 60s linear infinite;
+    }
+
+.horizontal2 {
+position: relative;
+width: 1790px;
+height: 1004px;
+margin: 0 0 0 0;
+
+}
+    .tube {
+      position: absolute;
+      width: 653px;
+      height: 505px;
+      left: 150px;
+      top: 0px;
+
+    }
+    .tubes {
+      position: absolute;
+      width: 445.63px;
+      height: 431.21px;
+      left: 1024px;
+      top: 0px;
+    }
+
+    .clouds {
+      position: absolute;
+      width: 1910px;
+      height: 1600px;
+      left: -120px;
+      top: 270px;
+      display: block;
+      overflow: hidden;
+    }
+    /* .clouds * {
+    display: inline-block;
+    } */
+    .cloud1 img {
+      position: absolute;
+      left: -6.7px;
+      top: 410px;
+      width: 311px;
+      transform: scaleX(-1);
+    }
+    .cloud2 img{
+      position: absolute;
+      left: 240px;
+      width: 506px;
+      top: 180px;
+
+    }
+    .cloud3 {
+      position: absolute;
+      width: 231px;
+      top: 500px;
+      left: 750px;
+    }
+    .cloud4 img {
+      position: absolute;
+      width: 470px;
+      left: 1500px;
+      top: 250px;
+      transform: scaleX(-1);
+    }
+    .cloud5 {
+      position: absolute;
+      top: 550px;
+      left: 1750px;
+    }
+    .cloud6 {
+      position: absolute;
+      width: 314px;
+      height: 390px;
+      left: 1040px;
+      top: 0px;
+    }
+
+    .icebergs{
+      position: relative;
+      width: 1790px;
+      height: 2455px;
+      margin: 0 0px 0 0px;
+    }
+    .icebergs p {
+      font-weight: bold;
+      color: #FFFFFF;
+    }
+    .t1  {
+      position: absolute;
+      top: 290px;
+      left: 86px;
+      letter-spacing: 1px;
+    }
+    .t2 {
+      position: absolute;
+      top: 800px;
+      left: 630px;
+      letter-spacing: 1px;
+    }
+    .t3 {
+      position: absolute;
+      top: 1150px;
+      left: 1425px;
+      letter-spacing: 1px;
+    }
+    .stroke1 {
+      position: absolute;
+      top: 326px;
+      left: 86px;
+    }
+    .stroke2 {
+      position: absolute;
+      top: 836px;
+      left: 630px;
+    }
+    .stroke3 img {
+      position: absolute;
+      width: 383px;
+      top: 1190px;
+      left: 1200px;
+    }
+
+    .iceberg1 img {
+      position: absolute;
+      width: 423px;
+      height: 779px;
+      left: 228px;
+      top: -93px;
+    }
+
+    .iceberg2 img {
+      position: absolute;
+      width: 879px;
+      height: 1578px;
+      left: 823px;
+      top: -305px;
+    }
+    .ocean {
+      position: absolute;
+      background: #3300FF;
+      width: 1790px;
+      height: 2455px;
+      margin: 200px 0 0 0;
+    }
+    .floatingice {
+      display: block;
+      position: relative;
+      width: 1737px;
+      height: 972px;
+      margin: -2500px 0 0 0;
+/* overflow: hidden; */
+    }
+    .floatingice1 {
+     position: absolute;
+     display: inline-block;
+     width: 1422px;
+     height: 972px;
+     left: 0px;
+     top: 1450px;
+     animation: float 20s linear infinite;
+    }
+
+    .floatingice12 {
+      display: inline-block;
+      position: relative;
+      width: 1422px;
+      height: 972px;
+      left: 1200px;
+      top: 1450px;
+      animation-delay: none;
+      animation: float2 10s linear infinite;
+
+    }
+
+    .floatingice2 {
+      position: absolute;
+      width: 1790px;
+      height: 195px;
+      top: 1950px;
+      animation: float3 10s linear infinite;
+    }
+
+    .floatingice3 {
+      position: absolute;
+      top: 1711px;
+      left: 141px;
+      width: 1507px;
+      height: 100px;
+      animation: float4 10s linear infinite;
+    }
+
+    .footter {
+      position: absolute;
+      top: 2550px;
+      width: 1790px;
+      height: 110px;
+    }
+    .footter img {
+      position: absolute;
+      top: 0px;
+      left: 46px;
+      width: 249px;
+      height: 106px;
+    }
+    .footter p {
+      position: absolute;
+      top: 0px;
+      right: 46px;
+      font-size: 26px;
+    }
