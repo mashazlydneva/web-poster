@@ -58,13 +58,10 @@
     height: 394.94px;
     margin: 68px 68px 0px 435px;
     margin-top: -640px;
-    /* background: url('images/Group 9.png'); */
+    background: url('../images/Group 9.png');
     background-size: 100%
   }
-  .cloud img {
-    position: absolute;
-    width:  1287.78px;
-  }
+
   .cloud p {
     position: absolute;
     overflow:visible;
@@ -90,7 +87,7 @@
     height: 348px;
     margin: 0px 709px 0px 0px;
     display: inline-block;
-    background: url('images/Rectangle 30.png');
+    background: url('../images/Rectangle 30.png');
   }
 
   .inthewindow {
@@ -101,7 +98,7 @@
     top: 40px;
     height: 273px;
     width: 243px;
-    background: url('images/Frame 4.png');
+    background: url('../images/Frame 4.png');
     animation: tr 1s steps(1) alternate infinite;
   }
 
@@ -111,7 +108,7 @@
     height: 348px;
     margin: 0px 354.5px 0px 354.5px;
     display: inline-block;
-    background: url('images/Rectangle 30.png');
+    background: url('../images/Rectangle 30.png');
   }
   .inthewindow2 {
     display: block;
@@ -121,7 +118,7 @@
     top: 60px;
     height: 273px;
     width: 243px;
-    background: url('images/Frame 4.png');
+    background: url('../images/Frame 4.png');
     animation: kr 5s steps(1) alternate infinite;
   }
 
@@ -131,7 +128,7 @@
     height: 348px;
     margin: 0px 0px 0px 709px;
     display: inline-block;
-    background: url('images/Rectangle 30.png');
+    background: url('../images/Rectangle 30.png');
   }
   .inthewindow3 {
     display: block;
@@ -141,7 +138,7 @@
     top: 60px;
     height: 273px;
     width: 243px;
-    background: url('images/Frame 4.png');
+    background: url('../images/Frame 4.png');
     animation: lines 1s steps(1) alternate infinite;
   }
 
@@ -189,7 +186,7 @@ margin: -660px 578px 0 46px;
   left: 83px;
   top: 78px;
   display: inline-block;
-  background: url('images/Rectangle 42.png');
+  background: url('../images/Rectangle 42.png');
 }
 
 .numbers {
@@ -199,7 +196,7 @@ margin: -660px 578px 0 46px;
   top: 80px;
   height: 170px;
   width: 486px;
-  background: url('images/Frame 7.png');
+  background: url('../images/Frame 7.png');
   animation: numbers 10s steps(1) alternate infinite;
   animation-play-state: paused;
 }
@@ -273,7 +270,7 @@ margin: -660px 578px 0 46px;
   position: absolute;
   height: 647px;
   width: 9436px;
-  background: url('images/Frame 9.png');
+  background: url('../images/Frame 9.png');
   animation: conveyor 10s linear infinite;
 
 }
@@ -304,7 +301,7 @@ vertical-align: top;
   width: 1696px;
   height: 1119px;
   margin: 159px 49px 0 49px;
-  background: url('images/Rectangle 62.png');
+  background: url('../images/Rectangle 62.png');
 
 }
     .dots {
