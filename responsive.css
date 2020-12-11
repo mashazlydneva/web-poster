@@ -1,0 +1,115 @@
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+  .horizontal3 { width: 100vw;
+       margin: 0 0 0 0;}
+       .title {transform: scale(0.58);
+      top: 0;
+      left: -17vw;}
+       .title img {
+      top: 16vh;}
+      .title p{
+        top: 3vh;
+        font-size: 30px;
+      }
+       .line { transform: scale(0.56);
+       left: 51.5vw;
+        top: 0.5vh; }
+
+  .horizontal4 {
+      width: 100vw;
+      height: 140vh;
+      margin: 0 0 0 0;
+    }
+    .cloud {transform: scale(0.58);
+    top: -16vh;
+    left: -61vh;}
+
+    .factory {
+    transform: scale(0.58);
+    left: -22vw;
+    top: -50vh;
+  }
+
+ .windows {
+   transform: scale(0.58);
+   left: 23vw;
+ top: 15vh;
+ }
+ .manylines {
+   transform: scale(0.58);
+   left: 17vw;
+   top: 25vh;
+  }
+  .horizontal{
+    width: 100vw;
+    margin: 0 0 0 0;
+    height: 80vh;
+  }
+ .side {
+   transform:scale(0.58);
+   top: -28vh;
+   left: -16vw;
+ }
+ .calc {
+   transform:scale(0.58);
+   top: -28vh;
+   left: 48vw;
+ }
+ .conveyor {
+   transform: scale(0.58);
+   margin-top: -10vh;
+   margin-left: -38vw;
+ }
+ .conveyor2 {
+   transform: scale(0.58);
+   margin-top: -20vh;
+   margin-left: -33vw;
+ }
+ .mechanism {
+   transform: scale(0.58);
+   width: 100vw;
+   height: 100vh;
+   margin: -20vh 0 0 -18vw;
+ }
+ .horizontal2 {
+   margin: -18.5vh 0 0 -36.5vw;
+   transform: scale(0.58);
+   height: 114vh
+ }
+ .clouds {
+  height: 78vh;
+ }
+
+.horizontal5 {
+  width: 100vw;
+  margin: -90vh 0 0 -21vw;
+  transform: scale(0.58);
+}
+/* .ocean {
+  transform:scale(0.58);
+  top: -50vh;
+  lef
+} */
+
+
+
+
+@media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+ .horizontal3 { width:100vw;
+ height: 29vh;
+ margin: 0 0 0 0;}
+
+ .title { transform:scale(0.29);
+ left: -105vw;
+ top: -13vh;
+ }
+
+ .cloud { transform:scale(0.23);
+ left:-288vw;
+ top: -40vh;
+ }
+
+
+}
+
+}
