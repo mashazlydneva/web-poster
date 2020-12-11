@@ -49,9 +49,8 @@
   110%{background-position: -10692px top;}
 }
 @keyframes conveyor {
-  0% {left: -9436px}
-  100% {left: 100%;}
-
+  0% {left: -7357px}
+  100% {left: -1645px;}
 }
 @keyframes spin {
 0% {transform: rotate(0deg);}

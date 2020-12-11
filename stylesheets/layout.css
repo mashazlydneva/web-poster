@@ -1,9 +1,9 @@
 
   body {
-    width: 1790px;
+    /* width: 1790px; */
     margin: 0 auto;
     background: white;
-    height: 9492px;
+    /* height: 9400px; */
     display: block;
     position: relative;
     overflow-y: scroll;
@@ -20,48 +20,64 @@
     opacity: .2;
   } */
   html {
-    background: #bbb;
+    background: white;
     position: relative;
     height: 100%;
   }
+  .horizontal3 {
+    position: relative;
+    width: 1790px;
+    height: 300px;
+    margin: 45px 0 30px 0;
+  }
+  .line {
+    position: absolute;
+    width: 587.85px;
+    height: 290.66px;
+    top: 0px;
+    left:1135px;
+  }
 
   .line img {
-    position: relative;
+    position: absolute;
     width: 587.85px;
     height: 290.66px;
     /* left: 1134.94px;
     top: 62px; */
-    margin: 62px 0 0 1135px;
+    /* margin: 0px 0 0 1135px; */
   }
   .title {
-    position: relative;
-    width: 762px;
+    position: absolute;
+    top: 0px;
+    left: 62px;
+    width: 994px;
     height: 223px;
-    /* left: 60px;
-    top: -270px; */
-    /* margin: 158.45px 734px 0px 66px; */
-    padding: 158.45px 734px 800px 66px;
-    margin-top: -490px;
+  }
+  .title p {
+    position: absolute;
+    top: 0px;
     font-size: 36px;
   }
   .title img{
-    position: relative;
+    position: absolute;
     width: 993.21px;
     height: 194.21px;
-    left: 0px;
-    top: 10px;
-
+    top: 97px;
+  }
+  .horizontal4 {
+    position: relative;
+    width: 1790px;
+    height: 1877px;
+    margin: 0 0 0 0;
   }
   .cloud {
-    position: relative;
+    position: absolute;
     width: 1287.78px;
     height: 394.94px;
-    margin: 68px 68px 0px 435px;
-    margin-top: -640px;
+    margin: 15px 68px 0px 435px;
     background: url('../images/Group 9.png');
     background-size: 100%
   }
-
   .cloud p {
     position: absolute;
     overflow:visible;
@@ -75,10 +91,12 @@
   .windows  {
     vertical-align: top;
     display: block;
-    position: relative;
+    position: absolute;
     width: 952px;
     height: 348px;
-    margin: -10px 87px 0px 751px;
+    top: 400px;
+    left: 751px;
+    /* margin: 400px 87px 0px 751px; */
   }
 
   .window {
@@ -123,7 +141,7 @@
   }
 
   .window3 {
-    position: relative;
+    position: absolute;
     width: 243px;
     height: 348px;
     margin: 0px 0px 0px 709px;
@@ -144,18 +162,21 @@
 
 
   .factory {
-    position: relative;
+    position: absolute;
+    display: block;
     width: 1169.33px;
-height: 1807.48px;
-margin: -660px 578px 0 46px;
+    height: 1807.48px;
+    top: 90px;
+    left: 46px;
 
   }
 
   .manylines {
-    position: relative;
+    position: absolute;
     width: 1090px;
     height: 1076px;
-    margin: -1075px 67px 0 706px;
+    top: 820px;
+    left: 706px;
     vertical-align: top;
   }
 
@@ -177,7 +198,7 @@ margin: -660px 578px 0 46px;
   position: absolute;
   width: 636px;
   height: 1042px;
-  margin: 0 0 0 1024px;
+  left: 1024px;
 }
 .frame{
   position: absolute;
@@ -209,7 +230,8 @@ margin: -660px 578px 0 46px;
   position: absolute;
   width: 931px;
   height: 1042px;
-  margin: 0 0 0 0;
+  top: 0;
+  left: 0;
 }
 .side p {
   position: absolute;
@@ -270,9 +292,10 @@ margin: -660px 578px 0 46px;
   position: absolute;
   height: 647px;
   width: 9436px;
-  background: url('../images/Frame 9.png');
   animation: conveyor 10s linear infinite;
-
+}
+.conveyor-move:hover {
+  animation-play-state: paused;
 }
 
 .conveyor2{
@@ -301,8 +324,11 @@ vertical-align: top;
   width: 1696px;
   height: 1119px;
   margin: 159px 49px 0 49px;
-  background: url('../images/Rectangle 62.png');
+  /* background: url('../images/Rectangle 62.png'); */
 
+}
+.background {
+  width: 100%;
 }
     .dots {
       position: absolute;
@@ -391,15 +417,13 @@ margin: 0 0 0 0;
     .clouds {
       position: absolute;
       width: 1910px;
-      height: 1600px;
+      height: 600px;
       left: -120px;
       top: 270px;
       display: block;
       overflow: hidden;
     }
-    /* .clouds * {
-    display: inline-block;
-    } */
+
     .cloud1 img {
       position: absolute;
       left: -6.7px;
@@ -440,10 +464,16 @@ margin: 0 0 0 0;
       top: 0px;
     }
 
+    .horizontal5 {
+      position: relative;
+      width: 1790px;
+      height: 2600px;
+      margin: 0 0 0 0;
+    }
     .icebergs{
       position: relative;
       width: 1790px;
-      height: 2455px;
+      /* height: 2455px; */
       margin: 0 0px 0 0px;
     }
     .icebergs p {
@@ -485,6 +515,7 @@ margin: 0 0 0 0;
       left: 1200px;
     }
 
+
     .iceberg1 img {
       position: absolute;
       width: 423px;
@@ -505,15 +536,15 @@ margin: 0 0 0 0;
       background: #3300FF;
       width: 1790px;
       height: 2455px;
-      margin: 200px 0 0 0;
+      top: 200px;
     }
     .floatingice {
       display: block;
-      position: relative;
-      width: 1737px;
-      height: 972px;
-      margin: -2500px 0 0 0;
-/* overflow: hidden; */
+      position: absolute;
+      width: 1790px;
+      height: 1182px;
+      top: 1400px;
+      overflow: hidden;
     }
     .floatingice1 {
      position: absolute;
@@ -521,7 +552,7 @@ margin: 0 0 0 0;
      width: 1422px;
      height: 972px;
      left: 0px;
-     top: 1450px;
+     top: 0px;
      animation: float 20s linear infinite;
     }
 
@@ -531,7 +562,7 @@ margin: 0 0 0 0;
       width: 1422px;
       height: 972px;
       left: 1200px;
-      top: 1450px;
+      top: 0px;
       animation-delay: none;
       animation: float2 10s linear infinite;
 
@@ -541,22 +572,22 @@ margin: 0 0 0 0;
       position: absolute;
       width: 1790px;
       height: 195px;
-      top: 1950px;
+      top: 450px;
       animation: float3 10s linear infinite;
     }
 
     .floatingice3 {
       position: absolute;
-      top: 1711px;
+      top: 200px;
       left: 141px;
       width: 1507px;
       height: 100px;
-      animation: float4 10s linear infinite;
+      animation: float4 20s linear infinite;
     }
 
     .footter {
       position: absolute;
-      top: 2550px;
+      bottom: 25px;
       width: 1790px;
       height: 110px;
     }
