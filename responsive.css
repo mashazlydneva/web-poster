@@ -1,0 +1,190 @@
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+  .horizontal3 { width: 100vw;
+       margin: 0 0 0 0;}
+       .title {transform: scale(1);
+      top: -5vh;
+      left: 3vw;}
+       .title img {
+      top: 16vh;}
+      .title p{
+        top: 6vh;
+        font-size: 26px;
+      }
+      .line { transform: scale(0.56);
+    left: 45vw;
+     top: -4.5vh;
+     width:70vw }
+
+  .horizontal4 {
+      width: 100vw;
+      height: 140vh;
+      margin: 0 0 0 0;
+    }
+    .cloud {transform: scale(0.75);
+    top: -5vh;
+    left: 20vh;}
+    .cloud p{
+      width: 80vw;
+      font-size: 26px;
+    }
+
+    .factory {
+   transform: scale(0.63);
+   left: -9vw;
+   top: -4vh;
+ }
+ .factory img{
+   width: 100vw;
+ }
+ .windows {
+   transform: scale(0.57);
+   left: 22vw;
+   top: 18vh;
+   width: 95vw;
+   height: 45vh
+ }
+ .manylines {
+   transform: scale(0.58);
+   left: 19vw;
+   top: 43vh;
+   width: 100vw;
+  }
+  .horizontal{
+    width: 100vw;
+    margin: 0 0 0 0;
+    height: 80vh;
+  }
+ .side {
+   transform:scale(0.58);
+   top: -28vh;
+   left: -16vw;
+ }
+ .calc {
+   transform:scale(0.58);
+   top: -28vh;
+   left: 48vw;
+ }
+ .conveyor {
+   transform: scale(0.58);
+   margin-top: -10vh;
+   margin-left: -38vw;
+   width: 175.9vw;
+   height: 63vw
+ }
+ .conveyor2 {
+   transform: scale(0.58);
+   margin-top: -20vh;
+   margin-left: -33vw;
+ }
+ .mechanism {
+   transform: scale(0.58);
+   width: 100vw;
+   height: 100vh;
+   margin: -20vh 0 0 -18vw;
+ }
+ .horizontal2 {
+   margin: -18.5vh 0 0 -36.5vw;
+   transform: scale(0.58);
+   height: 114vh
+ }
+ .clouds {
+  height: 78vh;
+ }
+
+.horizontal5 {
+  width: 100vw;
+  margin: -12vh 0 0 -21vw;
+  transform: scale(0.58);
+}
+/* .ocean {
+  transform:scale(0.58);
+  top: -50vh;
+  lef
+} */
+}
+
+
+@media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+ .horizontal3 { width:100vw;
+
+ margin: 0 0 0 0;}
+
+ .title { transform:scale(0.29);
+ left: -105vw;
+ top: -13vh;
+ }
+
+ .cloud { transform:scale(0.23);
+ left:-288vw;
+ top: -40vh;
+ }
+
+}
+
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait){
+  .horizontal3 { width: 100vw;
+       margin: 0 0 0 0;}
+       .title {transform: scale(0.5);
+      top: -5vh;
+      left: -28vw;}
+       .title img {
+      top: 16vh;}
+      .title p{
+        top: 6vh;
+        font-size: 30px;
+      }
+      .line { transform: scale(0.52);
+    top: -3.6vh;
+    left: 50vw;
+    }
+    .four1,.five1{display:none;}
+
+.horizontal4 {width: 100vw;
+height: 95vh;
+margin: 0 0 0 0;}
+.cloud {transform:scale(0.41);
+left: -77vw;
+top: -17vh;}
+.cloud p {font-size:32px;}
+.factory{ transform:scale(0.56);
+left: -32vw;
+top: -43vh}
+.manylines{transform:scale(0.58);
+left: 19vw;
+top: 12vh;
+}
+.six,.seven,.eight {display:none;}
+
+.windows{transform:scale(0.56);
+top: 5vh;
+left: 25vw}
+.window3 {display:none;}
+
+.horizontal{width:100vw;
+margin:0 0 0 0;}
+.side{transform:scale(0.56);
+top: -20vh;
+left: -24vw;}
+.bkg img{width:79vw;
+height: 100vh;}
+.triangle1{display:none;}
+.triangle2{left:1.3vw;
+top:31vh;
+transform:scaleX(1.04);}
+.decor2 {left:8vw;}
+.side p {left:8vw;
+width:49%;}
+.side h1{left:8vw;}
+.decor{left:5vw;}
+.decor3{left:56vw;
+top:74vh;}
+.decor4{display:none;}
+.calc{transform:scale(0.55);
+left: 32vw;
+top: -20.5vh;}
+
+
+
+
+}
