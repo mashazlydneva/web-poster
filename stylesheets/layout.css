@@ -1,204 +1,205 @@
 
-  body {
-    /* width: 1790px; */
-    margin: 0 auto;
-    background: white;
-    /* height: 9400px; */
-    display: block;
-    position: relative;
-    overflow-y: scroll;
-  }
-  /* body::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    background: url('images/background.png');
-    height: 100%;
-    display:block;
-    opacity: .2;
-  } */
-  html {
-    background: white;
-    position: relative;
-    height: 100%;
-  }
-  .horizontal3 {
-    position: relative;
-    width: 1790px;
-    height: 300px;
-    margin: 45px 0 30px 0;
-  }
-  .line {
-    position: absolute;
-    width: 587.85px;
-    height: 290.66px;
-    top: 0px;
-    left:1135px;
-  }
 
-  .line img {
-    position: absolute;
-    width: 587.85px;
-    height: 290.66px;
-    /* left: 1134.94px;
-    top: 62px; */
-    /* margin: 0px 0 0 1135px; */
-  }
-  .title {
-    position: absolute;
-    top: 0px;
-    left: 62px;
-    width: 994px;
-    height: 223px;
-  }
-  .title p {
-    position: absolute;
-    top: 0px;
-    font-size: 36px;
-  }
-  .title img{
-    position: absolute;
-    width: 993.21px;
-    height: 194.21px;
-    top: 97px;
-  }
-  .horizontal4 {
-    position: relative;
-    width: 1790px;
-    height: 1877px;
-    margin: 0 0 0 0;
-  }
-  .cloud {
-    position: absolute;
-    width: 1287.78px;
-    height: 394.94px;
-    margin: 15px 68px 0px 435px;
-    background: url('../images/Group 9.png');
-    background-size: 100%
-  }
-  .cloud p {
-    position: absolute;
-    overflow:visible;
-    width: 900px;
-    left: 278px;
-    top: 70px;
-    font-size: 30px;
-    line-height: 37px;
-  }
-
-  .windows  {
-    vertical-align: top;
-    display: block;
-    position: absolute;
-    width: 952px;
-    height: 348px;
-    top: 400px;
-    left: 751px;
-    /* margin: 400px 87px 0px 751px; */
-  }
-
-  .window {
-    position: absolute;
-    width: 243px;
-    height: 348px;
-    margin: 0px 709px 0px 0px;
-    display: inline-block;
-    background: url('../images/Rectangle 30.png');
-  }
-
-  .inthewindow {
-    display: block;
-    overflow: hidden;
-    position: absolute;
-    left: 0;
-    top: 40px;
-    height: 273px;
-    width: 243px;
-    background: url('../images/Frame 4.png');
-    animation: tr 1s steps(1) alternate infinite;
-  }
-
-  .window2 {
-    position: absolute;
-    width: 243px;
-    height: 348px;
-    margin: 0px 354.5px 0px 354.5px;
-    display: inline-block;
-    background: url('../images/Rectangle 30.png');
-  }
-  .inthewindow2 {
-    display: block;
-    overflow: hidden;
-    position: absolute;
-    left: 0;
-    top: 60px;
-    height: 273px;
-    width: 243px;
-    background: url('../images/Frame 4.png');
-    animation: kr 5s steps(1) alternate infinite;
-  }
-
-  .window3 {
-    position: absolute;
-    width: 243px;
-    height: 348px;
-    margin: 0px 0px 0px 709px;
-    display: inline-block;
-    background: url('../images/Rectangle 30.png');
-  }
-  .inthewindow3 {
-    display: block;
-    overflow: hidden;
-    position: absolute;
-    left: 0;
-    top: 60px;
-    height: 273px;
-    width: 243px;
-    background: url('../images/Frame 4.png');
-    animation: lines 1s steps(1) alternate infinite;
-  }
-
-
-  .factory {
-    position: absolute;
-    display: block;
-    width: 1169.33px;
-    height: 1807.48px;
-    top: 90px;
-    left: 46px;
-
-  }
-
-  .manylines {
-    position: absolute;
-    width: 1090px;
-    height: 1076px;
-    top: 820px;
-    left: 706px;
-    vertical-align: top;
-  }
-
-  .manylines *  {
-  display: inline-block;
-  margin-left: 23px;
-  vertical-align: top;
+body {
+  width: 100%;
+  margin: 0 auto;
+  background: white;
+  /* height: 9400px; */
+  display: block;
+  position: relative;
+  overflow-y: scroll;
 }
+/* body::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  background: url('images/background.png');
+  height: 100%;
+  display:block;
+  opacity: .2;
+} */
+html {
+  background: white;
+  position: relative;
+  height: 100%;
+}
+.horizontal3 {
+  position: relative;
+ /* width: 100vw; */
+ height: 30vh;
+ margin: 5vh 0 0 0;
+ }
+ .line {
+ position: absolute;
+ width: 40%;
+
+ left: 59%;
+
+ }
+ .line *  {
+ display: inline-block;
+ margin-left: 7%;
+ vertical-align: top;
+ }
+ .title {
+ position: absolute;
+ top: 3%;
+ left: 3%;
+ width: 55%;
+ height: 100%;
+
+ }
+ .title p {
+ position: absolute;
+ top: 0%;
+ font-size: 36px;
+ }
+ .title img{
+ position: absolute;
+ width: 100%;
+ top: 31%;
+ }
+ .horizontal4 {
+   position: relative;
+   /* width: 1790px; */
+   height: 200vh;
+   margin: 3vh 0 0 0;
+ }
+ .cloud {
+   position: absolute;
+   width: 72%;
+   height: 21.7%;
+   top: 2%;
+   left:24%;
+   background: url('../images/Group 9.png');
+   background-size: 100%;
+ }
+ .cloud p {
+   position: absolute;
+   overflow:visible;
+   width: 80%;
+   left: 20%;
+   top: 12%;
+   font-size: 30px;
+   line-height: 37px;
+ }
+
+ .windows  {
+   vertical-align: top;
+   display: block;
+   position: absolute;
+   width: 54%;
+   height: 19%;
+   top: 22%;
+   left: 42%;
+ }
+
+ .window {
+   position: absolute;
+   width: 25.2%;
+   height: 100%;
+   display: inline-block;
+   background: url('../images/Rectangle 30.png');
+ }
+
+ .inthewindow {
+   display: block;
+   overflow: hidden;
+   position: absolute;
+   left: 0;
+   top: 40px;
+   height: 273px;
+   width: 243px;
+   background: url('../images/Frame 4.png');
+   animation: tr 1s steps(1) alternate infinite;
+ }
+
+ .window2 {
+   position: absolute;
+   width: 25.2%;
+   height: 100%;
+   left: 37.4%;
+   display: inline-block;
+   background: url('../images/Rectangle 30.png');
+ }
+ .inthewindow2 {
+   display: block;
+   overflow: hidden;
+   position: absolute;
+   left: 0;
+   top: 60px;
+   height: 273px;
+   width: 243px;
+   background: url('../images/Frame 4.png');
+   animation: kr 5s steps(1) alternate infinite;
+ }
+
+ .window3 {
+   position: absolute;
+   width: 25.2%;
+   height: 100%;
+   left: 75%;
+   display: inline-block;
+   background: url('../images/Rectangle 30.png');
+ }
+ .inthewindow3 {
+   display: block;
+   overflow: hidden;
+   position: absolute;
+   left: 0;
+   top: 60px;
+   height: 273px;
+   width: 243px;
+   background: url('../images/Frame 4.png');
+   animation: lines 1s steps(1) alternate infinite;
+ }
+
+
+ .factory {
+  display: inline-block;
+  position: absolute;
+  width: 65%;
+  height: 57%;
+  top: 4%;
+  left: 2.4%;
+
+}
+  .factory img{
+ width: 100%;
+}
+
+
+   .manylines {
+     position: absolute;
+     width: 60%;
+     height: 57%;
+     top: 44.3%;
+     left: 39%;
+     vertical-align: top;
+   }
+
+
+   .manylines *  {
+   display: inline-block;
+   margin-left: 4.3%;
+   vertical-align: top;
+ }
 
 .horizontal {
   position: relative;
-  width: 1660px;
-  height: 1042px;
-  vertical-align: top;
-  margin: 132px 65px 0 65px;
+    width: 100vw;
+    height: 116vh;
+    vertical-align: top;
+    margin: 13vh 65vw 0 0vw;
 }
 
 .calc {
   position: absolute;
-  width: 636px;
-  height: 1042px;
-  left: 1024px;
+  width: 36%;
+  height: 100%;
+  left: 60.4%;
 }
 .frame{
   position: absolute;
@@ -228,70 +229,78 @@
 
 .side{
   position: absolute;
-  width: 931px;
-  height: 1042px;
+  width: 50%;
+  height: 100%;
   top: 0;
-  left: 0;
+  left: 3.5%;
 }
 .side p {
   position: absolute;
-  top: 167px;
-  left: 105px;
-  width: 700px;
+  top: 16%;
+  left: 11%;
+  width: 70%;
   font-size: 30px;
   line-height: 37px;
   color: #FFFFFF;
 }
 .side h1{
   position: absolute;
-  top: 107px;
-  left: 105px;
+  top: 10%;
+  left: 11.2%;
   font-size: 36px;
   color: #FFFFFF;
 }
 .decor {
   position: absolute;
-  width: 795px;
-  height: 371px;
-  left: 78px;
-  top: 608px;
+  left: 8%;
+  top: 65%;
+}
+.decor3{
+  position: absolute;
+  left: 39%;
+  top: 56%;
+}
+.decor4{
+  position: absolute;
+  left: 47%;
+  top: 87%;
 }
 .decor2 {
   position: absolute;
-  width: 795px;
-  height: 371px;
-  left: 105px;
-  top: 70px;
+  left: 11.3%;
+  top: 7%;
 }
 .triangle1{
   position: absolute;
-  width: 450px;
-  height: 359px;
-  left: 0px;
-  top: 324px;
+  width: 50%;
+  height: 50%;
+  left: 0%;
+  top: 30.5%;
 }
 .triangle2{
   position: absolute;
-  width: 584px;
-  height: 478px;
-  left: 347px;
-  top: 324px;
+  width: 50%;
+  height: 50%;
+  left: 38.6%;
+  top: 30.8%;
 }
 
-.conveyor{
-  width: 1790px;
-  position: relative;
-  display: block;
-  margin: 178px 0 0 0;
-  height: 647px;
-  overflow: hidden;
-}
+
+.conveyor {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: 5vh 0 0 0;
+    height: 69vh;
+    overflow: hidden;
+  }
+
 
 .conveyor-move {
   display: inline-block;
   position: absolute;
-  height: 647px;
-  width: 9436px;
+  height: 100%;
+  width: 100%;
   animation: conveyor 10s linear infinite;
 }
 .conveyor-move:hover {
@@ -300,102 +309,107 @@
 
 .conveyor2{
   position: relative;
-  width: 1696px;
-  height: 228px;
-  margin: 47px 46px 0px 46px;
+  width: 96%;
+  height: 10%;
+  margin: 10vh 0 0 3vw;
 }
 
 .circles {
   position: absolute;
-  width: 1600px;
-  height: 112px;
-  left: 55px;
-  top: 58px;
+  width: 95%;
+  height: 100%;
+  left: 3%;
+  top: 24%;
 }
 .circles *  {
 display: inline-block;
-margin-left: 28px;
+margin-left: 3.4%;
 vertical-align: top;
 }
 
+
 .mechanism {
-  position: relative;
-  display: block;
-  width: 1696px;
-  height: 1119px;
-  margin: 159px 49px 0 49px;
-  /* background: url('../images/Rectangle 62.png'); */
+position: relative;
+    display: block;
+    width: 90%;
+    height: 175.5%;
+    margin: 10vh 4vw 0 3vw;
+/* background: url('../images/Rectangle 62.png'); */
 
 }
 .background {
-  width: 100%;
+width: 90%;
+height: 90%;
 }
-    .dots {
-      position: absolute;
-      width: 1503px;
-      height: 933px;
-      left: 96px;
-      top: 95px;
-    }
-    .dot1 {
-      position: absolute;
-      width: 47px;
-      height: 47px;
-      left: 0px;
-      top: 0px;
-    }
-    .dot2 {
-      position: relative;
-      width: 47px;
-      height: 47px;
-      left: 1450px;
-      top: 0px;
-    }
-    .dot3 {
-      position: relative;
-      width: 47px;
-      height: 47px;
-      left: 1450px;
-      top: 790px;
-    }
-    .dot4 {
-      position: relative;
-      width: 47px;
-      height: 47px;
-      left: 0px;
-      top: 790px;
-    }
-    .machine {
-      position: absolute;
-      width: 1400px;
-      height: 870px;
-      top: 165px;
-      left: 120px;
-    }
-    .machine * {
-      display: inline-block;
-      margin-left: 28px;
-    }
-    .machine1 img {
-      margin-top: 0px;
-      animation: spin 50s linear infinite;
-    }
-    .machine2 img {
-      margin-top: -600px;
-      margin-left: 600px;
-      animation: spin2 30s linear infinite;
-    }
-    .machine3 img {
-      margin-left: 400px;
-      margin-top: -200px;
-      animation: spin3 60s linear infinite;
-    }
+  .dots {
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    left: 6%;
+    top: 9%;
+  }
+  .dot1 {
+     position: absolute;
+     width: 10%;
+     height: 10%;
+     left: 0;
+     top: 0;
+   }
+   .dot2 {
+     position: relative;
+     width: 100%;
+     height: 1%;
+     left: 90%;
+     top: 0;
+   }
+   .dot3 {
+     position: relative;
+     width: 10%;
+     height: 10%;
+     left: 90%;
+     top: 90%;
+   }
+   .dot4 {
+     position: relative;
+     width: 10%;
+     height: 10%;
+     left: 0;
+     top: 80%;
+   }
+  .machine {
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    top: 15%;
+    left: 9%;
+  }
+  .machine * {
+    display: inline-block;
+    margin-left: 1%;
+  }
+  .machine1 img {
+    position:absolute;
+    top: 0;
+    animation: spin 50s linear infinite;
+  }
+  .machine2 img {
+    position:absolute;
+    top: -6%;
+    left: 40%;
+    animation: spin2 30s linear infinite;
+  }
+  .machine3 img {
+    position:absolute;
+    left: 28%;
+    top: 60%;
+    animation: spin3 60s linear infinite;
+  }
 
 .horizontal2 {
-position: relative;
-width: 1790px;
-height: 1004px;
-margin: 0 0 0 0;
+  position: relative;
+  /* width: 1790px; */
+  height: 105vh;
+  margin: -1vh 0 0 0;
 
 }
     .tube {
@@ -466,13 +480,13 @@ margin: 0 0 0 0;
 
     .horizontal5 {
       position: relative;
-      width: 1790px;
-      height: 2600px;
+      /* width: 1790px;
+      height: 2600px; */
       margin: 0 0 0 0;
     }
     .icebergs{
       position: relative;
-      width: 1790px;
+      /* width: 1790px; */
       /* height: 2455px; */
       margin: 0 0px 0 0px;
     }
@@ -543,7 +557,7 @@ margin: 0 0 0 0;
       position: absolute;
       width: 1790px;
       height: 1182px;
-      top: 1400px;
+      top: 1440px;
       overflow: hidden;
     }
     .floatingice1 {
@@ -587,7 +601,7 @@ margin: 0 0 0 0;
 
     .footter {
       position: absolute;
-      bottom: 25px;
+      bottom: 0px;
       width: 1790px;
       height: 110px;
     }
@@ -600,7 +614,7 @@ margin: 0 0 0 0;
     }
     .footter p {
       position: absolute;
-      top: 0px;
+      top: 51px;
       right: 46px;
       font-size: 26px;
     }
