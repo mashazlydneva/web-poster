@@ -48,6 +48,12 @@
   105%{background-position: -10206px top;}
   110%{background-position: -10692px top;}
 }
+
+/* @keyframes frame {
+  0% {background: url('../images/Rectangle 42.png');}
+  100% {background: url('../images/Rectangle 42 — копия.png');}
+
+} */
 @keyframes conveyor {
   0% {left: -7357px}
   100% {left: -1645px;}

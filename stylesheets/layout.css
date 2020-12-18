@@ -73,7 +73,7 @@ html {
    height: 21.7%;
    top: 2%;
    left:24%;
-   background: url('../images/Group 9.png');
+   background: url('../images/Group 9.png')no-repeat;
    background-size: 100%;
  }
  .cloud p {
@@ -101,7 +101,7 @@ html {
    width: 25.2%;
    height: 100%;
    display: inline-block;
-   background: url('../images/Rectangle 30.png');
+   background: url('../images/Rectangle 30.png') no-repeat;
  }
 
  .inthewindow {
@@ -122,7 +122,7 @@ html {
    height: 100%;
    left: 37.4%;
    display: inline-block;
-   background: url('../images/Rectangle 30.png');
+   background: url('../images/Rectangle 30.png') no-repeat;
  }
  .inthewindow2 {
    display: block;
@@ -142,7 +142,7 @@ html {
    height: 100%;
    left: 75%;
    display: inline-block;
-   background: url('../images/Rectangle 30.png');
+   background: url('../images/Rectangle 30.png') no-repeat;
  }
  .inthewindow3 {
    display: block;

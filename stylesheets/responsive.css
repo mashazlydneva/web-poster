@@ -1,4 +1,4 @@
-@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media all and (min-width: 768px) and (max-width: 1240px) {
 
   .horizontal3 { width: 100vw;
        margin: 0 0 0 0;}
@@ -13,12 +13,12 @@
       }
       .line { transform: scale(0.56);
     left: 45vw;
-     top: -4.5vh;
-     width:70vw }
+     top: 0vh;
+     width:70vw; }
 
   .horizontal4 {
       width: 100vw;
-      height: 140vh;
+      height: 130vh;
       margin: 0 0 0 0;
     }
     .cloud {transform: scale(0.75);
@@ -30,9 +30,9 @@
     }
 
     .factory {
-   transform: scale(0.63);
+   transform: scale(0.65);
    left: -9vw;
-   top: -4vh;
+   top: -13.5vh;
  }
  .factory img{
    width: 100vw;
@@ -40,14 +40,14 @@
  .windows {
    transform: scale(0.57);
    left: 22vw;
-   top: 18vh;
+   top: 12vh;
    width: 95vw;
    height: 45vh
  }
  .manylines {
    transform: scale(0.58);
    left: 19vw;
-   top: 43vh;
+   top: 31vh;
    width: 100vw;
   }
   .horizontal{
@@ -58,24 +58,41 @@
  .side {
    transform:scale(0.58);
    top: -28vh;
-   left: -16vw;
+   left: -7vw;
  }
+ .side p{
+   width: 65vw;
+ }
+ .decor{left:5vw;
+ top: 74vh;}
+ .decor3{left:48vw;
+ top:67vh;}
+ .decor4{left:45vw;
+ top: 100vh;}
+ .triangle1{left: 46vw;
+ top: 35vh;}
+ .triangle2{left:0vw;
+ top:35vh;}
+
  .calc {
    transform:scale(0.58);
    top: -28vh;
-   left: 48vw;
+   left: 53vw;
  }
  .conveyor {
    transform: scale(0.58);
-   margin-top: -10vh;
+   margin-top: -35vh;
    margin-left: -38vw;
    width: 175.9vw;
    height: 63vw
  }
+ .circles {
+   width: 150vw;
+ }
  .conveyor2 {
    transform: scale(0.58);
    margin-top: -20vh;
-   margin-left: -33vw;
+   margin-left: -17vw;
  }
  .mechanism {
    transform: scale(0.58);
@@ -83,8 +100,24 @@
    height: 100vh;
    margin: -20vh 0 0 -18vw;
  }
+ .dots {
+  width: 155vw;
+  height: 110vh;
+  top:9vh;
+  left:8vw;
+ }
+ .machine2 img{
+   left: 59vw;
+ }
+ .machine1 img{
+   left: 8vw;
+ }
+ .machine3 img {
+   top: 60vh;
+   left: 40vw;
+ }
  .horizontal2 {
-   margin: -18.5vh 0 0 -36.5vw;
+   margin: -32vh 0 0 -25vw;
    transform: scale(0.58);
    height: 114vh
  }
@@ -97,6 +130,9 @@
   margin: -12vh 0 0 -21vw;
   transform: scale(0.58);
 }
+.t3 {
+  width: 15vw;
+}
 /* .ocean {
   transform:scale(0.58);
   top: -50vh;
@@ -105,7 +141,7 @@
 }
 
 
-@media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+@media all and (min-width: 320px) and (max-width: 480px) {
  .horizontal3 { width:100vw;
 
  margin: 0 0 0 0;}
@@ -122,69 +158,297 @@
 
 }
 
-@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait){
+@media all and (min-width: 481px) and (max-width: 892px) {
   .horizontal3 { width: 100vw;
        margin: 0 0 0 0;}
-       .title {transform: scale(0.5);
-      top: -5vh;
-      left: -28vw;}
+       .title {
+      top: 0vh;
+      left: 5vw;}
        .title img {
-      top: 16vh;}
+        transform: scale(1.2);
+      top: 11.5vh;
+    left: 5.5vw;}
       .title p{
-        top: 6vh;
-        font-size: 30px;
+        top: 2vh;
+        font-size: 26px;
       }
-      .line { transform: scale(0.52);
+      .line { transform: scale(0.6);
     top: -3.6vh;
-    left: 50vw;
+    left: 62vw;
+    width: 50vw;
     }
-    .four1,.five1{display:none;}
+    .four1,.five1 {display:none;}
 
 .horizontal4 {width: 100vw;
-height: 95vh;
+height: 120vh;
 margin: 0 0 0 0;}
-.cloud {transform:scale(0.41);
-left: -77vw;
-top: -17vh;}
-.cloud p {font-size:32px;}
-.factory{ transform:scale(0.56);
-left: -32vw;
-top: -43vh}
-.manylines{transform:scale(0.58);
-left: 19vw;
-top: 12vh;
+.cloud {transform:scale(0.58);
+left: 12vw;
+top: -9vh;}
+.cloud p {font-size:26px;
+width: 100vw;}
+.factory{ transform:scale(0.8);
+left: -5vw;
+top: -7vh}
+.manylines{transform:scale(0.57);
+left: 27vw;
+top: 30.5vh;
 }
-.six,.seven,.eight {display:none;}
+.seven,.eight {display:none;}
 
-.windows{transform:scale(0.56);
-top: 5vh;
-left: 25vw}
+.windows {transform:scale(0.64);
+  width: 116vw;
+top: 8vh;
+left: 30vw}
 .window3 {display:none;}
 
 .horizontal{width:100vw;
-margin:0 0 0 0;}
+margin:6vh 0 0 0;
+height: 50vh;}
 .side{transform:scale(0.56);
 top: -20vh;
-left: -24vw;}
-.bkg img{width:79vw;
-height: 100vh;}
+left: -8vw;}
+.bkg img{width:84vw;
+height: 113vh;}
 .triangle1{display:none;}
-.triangle2{left:1.3vw;
-top:31vh;
-transform:scaleX(1.04);}
+.triangle2{left:1.95vw;
+top:35vh;
+transform:scaleX(1.19);}
 .decor2 {left:8vw;}
 .side p {left:8vw;
-width:49%;}
-.side h1{left:8vw;}
+  top: 14vh;
+width:70vw;}
+.side h1{left:8vw;
+width: 80vw;}
 .decor{left:5vw;}
-.decor3{left:56vw;
+.decor3{left:60vw;
 top:74vh;}
 .decor4{display:none;}
 .calc{transform:scale(0.55);
-left: 32vw;
+left: 46.5vw;
 top: -20.5vh;}
+.conveyor{
+  margin-top: -8vh;
+}
+.conveyor-move img{
+  transform: scale(0.6);
+  margin-top: -7vh;
+}
+.conveyor2{
+  transform: scale(0.61);
+  top: 0vh;
+  left: -13.5vw;
+}
+.conveyor2 img {
+  transform: scale(0.77);
+}
+.circles {
+  left: 30vw;
+}
+.mechanism {
+  margin: -15vh 0 0 -22.5vw;
+  transform: scale(0.56);
+  width: 100vw;
+  height: 50vh;
+}
+.background {
+  transform: scale(0.81);
+}
+.dots{
+  transform: scale(0.81);
+  left: 0vw;
+  top: 1vh;
+  width: 196vw;
+}
+.machine1{
+  transform: scale(0.8);
+}
+.machine2{
+  transform: scale(0.8);
+}
+.machine1 img{
+  left: 19vw;
+}
+.machine2 img{
+  left: 85vw;
+}
+.machine3 img{
+  top: 55vh;
+}
+.horizontal2{
+  margin: -5.1vh 0 0 -35vw;
+  height: 90vh;
+  transform: scale(0.46);
+}
+.horizontal5 {
+  width: 100vw;
+  margin: -12vh 0 0 -26.5vw;
+  transform: scale(0.47);
+}
+.t3 {
+  width: 19vw;
+}
 
+}
+@media all and (min-width: 1241px) and (max-width: 1680px) {
+.horizontal3{ width: 100vw;
+  height: 35vh;
+  margin: 0 0 0 0;}
+     .title {
+    top: 0vh;
+    left: 3vw;}
+     .title img {
+    top: 16vh;}
+    .title p{
+      top: 6vh;
+      font-size: 26px;
+    }
+    .line {
+      transform: scale(0.86);
+    left: 55vw;
+    top: 4vh;
+    width:46vw; }
 
+    .horizontal4{
+      margin: 0 0 0 0;
+      width: 100vw;
+      height: 186vh;
+    }
+    .cloud p{
+      width: 50vw;
+      font-size: 26px;
+      top: 3vh;
+    }
+    .windows{
+      transform: scale(0.86);
+      left: 36.5vw;
+      top: 37vh;
+      width: 64vw;
+      height: 45vh;
+    }
+    .manylines {
+      width: 90vw;
+      top: 70vh;
+      left: 32vw;
+      transform: scale(0.86);
+    }
+    .manylines *{
+      margin-left: 1.5vw;
+    }
+    .factory{
+      transform: scale(1);
+      left: 2vw;
+      top: 16vh;
+    }
+    .horizontal{
+      margin: 0 0 0 0;
+      width: 100vw;
+      height: 100vh;
+    }
+    .side {
+      transform: scale(0.85);
+      left: -0.6vw;
+      top: -9vh;
+    }
+    .calc{
+      transform: scale(0.85);
+      left: 57.4vw;
+      top: -9vh;
+    }
+    .side p{
+      width: 55vw;
+    }
+    .decor{
+      left: 5vh;
+      top: 77vh;
+    }
+    .decor3{left:32vw;
+    top:65vh;}
+    .decor4{left:32vw;
+    top: 101vh;}
+    .triangle1{left: 32.5vw;
+    top: 35vh;}
+    .triangle2{left:0vw;
+    top:35vh;}
 
+    .conveyor2{
+      transform: scale(0.84);
+      left: -9vw;
+      top: -6vh;
+      width: 107vw;
+    }
+   .mechanism{
+     margin: -8vh 0 0 -5.5vw;
+     transform: scale(0.84);
+     width: 100vw;
+     height: 103vh;
+   }
+   .dots{
+     width: 110vw;
+     height: 106vh;
+   }
+   .machine2 img{
+     left: 42vw;
+     top: 1vh;
+   }
+   .machine3 img{
+     left: 27vw;
+     top: 58vh;
+   }
+   .horizontal2{
+     margin: 0vh 0 0 -9vw;
+     height: 100vh;
+     transform: scale(0.83);
+   }
+   .horizontal5 {
+     width: 100vw;
+     margin: 0vh 0 0 -9vw;
+     transform: scale(0.83);
+   }
+   .t3{
+     width: 15vw;
+   }
 
+}
+@media all and (min-width: 1241px) and (max-width: 1440px) {
+  .horizontal3 { width: 100vw;
+       margin: 0 0 0 0;}
+       .title {
+      top: 0vh;
+      left: 3vw;}
+       .title img {
+      top: 15vh;}
+      .title p{
+        top: 6vh;
+        font-size: 26px;
+      }
+      .line { transform: scale(0.78);
+    left: 53vw;
+     top: 3.5vh;
+     width:55vw; }
+     .horizontal4{
+       margin: 0 0 0 0;
+       width: 100vw;
+       height: 180vh;
+     }
+     .windows{
+       transform: scale(0.8);
+       width: 71vw;
+       left: 36vw;
+       top: 31vh;
+     }
+     .window2{
+       left: 25vw;
+     }
+     .window3{
+       left: 49vw;
+     }
+     .manylines {
+       transform: scale(0.8);
+       top: 60vh;
+     }
+     .factory{
+       transform: scale(0.96);
+       top: 10.5vh;
+     }
 }
