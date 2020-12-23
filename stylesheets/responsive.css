@@ -117,27 +117,39 @@
    left: 40vw;
  }
  .horizontal2 {
-   margin: -32vh 0 0 -25vw;
-   transform: scale(0.58);
-   height: 114vh
+   margin: -29.2vh 0 0 -26vw;
+   transform: scale(0.57);
+   height: 100vh
  }
  .clouds {
-  height: 78vh;
+  height: 80vh;
+ }
+ .tubes{
+   left: 100vw;
  }
 
 .horizontal5 {
   width: 100vw;
   margin: -12vh 0 0 -21vw;
-  transform: scale(0.58);
+  transform: scale(0.59);
 }
 .t3 {
-  width: 15vw;
+  width: 20vw;
+}
+.ocean{
+  width: 171vw;
+}
+.iceberg1 img{
+  left: 20vw;
+}
+.iceberg2 img{
+  left: 78vw;
 }
 
 }
 
 
-@media all and (min-width: 500px) and (max-width: 767px) {
+/* @media all and (min-width: 500px) and (max-width: 767px) {
  .horizontal3 { width:100vw;
  margin: 0 0 0 0;
 height: 6vh;}
@@ -197,7 +209,7 @@ width: 50vw;
   left: -29vw;
   top: 10vh;
 }
-}
+} */
 
 @media all and (min-width: 768px) and (max-width: 892px) {
   /* ipad Portrait */
@@ -328,6 +340,9 @@ top: -20.5vh;}
   height: 90vh;
   transform: scale(0.41);
 }
+.tubes{
+  left: 130vw;
+}
 .horizontal5 {
   width: 100vw;
   margin: -14vh 0 0 -28.57vw;
@@ -353,6 +368,15 @@ top: -20.5vh;}
 }
 .stroke1{
   left: 7vw;
+}
+.ocean{
+  width: 235vw;
+}
+.iceberg1 img{
+  left: 34vw;
+}
+.iceberg2 img{
+  left: 105vw;
 }
 
 }
@@ -466,7 +490,7 @@ top: -20.5vh;}
      top: 62vh;
    }
    .horizontal2{
-     margin: 0vh 0 0 -3.3vw;
+     margin: 1vh 0 0 -3.3vw;
      height: 100vh;
      transform: scale(0.942);
    }
@@ -477,6 +501,9 @@ top: -20.5vh;}
    }
    .t3{
      width: 15vw;
+   }
+   .ocean{
+     width: 106.5vw;
    }
 
 }
@@ -595,6 +622,9 @@ top: -20.5vh;}
        height: 88vh;
        transform: scale(0.84);
      }
+     .tubes{
+       left: 75vw;
+     }
      .horizontal5{
        width: 100vw;
        margin: 0 0 0 -10vw;
@@ -604,6 +634,15 @@ top: -20.5vh;}
      .t3{
        width: 30vw;
      }
+     .ocean{
+       width: 124vw;
+     }
+    .iceberg1 img{
+      left: 20vw;
+    }
+    .iceberg2 img{
+      left: 55vw;
+    }
    }
 
      @media all and (min-width: 1280px) and (max-width: 1365px) {
@@ -629,7 +668,7 @@ top: -20.5vh;}
          .horizontal4{
            margin: 0 0 0 0;
            width: 100vw;
-           height: 150vh;
+           height: 143vh;
          }
          .cloud{
            transform: scale(0.94);
@@ -659,13 +698,343 @@ top: -20.5vh;}
          }
          .factory{
            transform: scale(1);
-           top: 10vh;
+           top: 10.5vh;
          }
-
-
+         .horizontal{
+           width: 100vw;
+           margin: 0 0 0 0;
+           height: 100vh;
+         }
+         .side{
+           transform: scale(0.73);
+           top: 0vh;
+           left: -3vw;
+         }
+         .calc{
+           transform: scale(0.73);
+           top: 0vh;
+           left: 55vw;
+         }
+         .side p{
+           width: 60vw;
+         }
+         .decor{left:4vw;
+         top: 75vh;}
+         .decor3{left:36vw;
+         top:67vh;}
+         .decor4{left:36vw;
+         top: 100vh;}
+         .triangle1{left: 37.5vw;
+         top: 35vh;}
+         .triangle2{left:0vw;
+         top:35vh;}
+         .conveyor2{
+           transform: scale(0.7);
+           margin: 4vh 0 0 0;
+           left: -11vw;
+         }
+         .circles{
+           width: 120vw;
+           left: 5vw;
+         }
+         .mechanism{
+           transform: scale(0.7);
+           margin: -10vh 0 0 -9.5vw;
+           height: 87vh;
+         }
+         .dots{
+           width: 125vw;
+           height: 108vh;
+           top: 10vh;
+           left: 8vw;
+         }
+         .machine2 img{
+           left: 50vw;
+           top: 0vh;
+         }
+         .machine3 img{
+           left: 34vw;
+           top: 60vh;
+         }
+         .horizontal2{
+           transform: scale(0.7);
+           margin: -2vw 0 0 -15vw;
+           height: 100vh;
+         }
+         .tubes{
+           left: 80vw;
+         }
+         .horizontal5{
+           transform: scale(0.726);
+           margin: 0 0 0 -17vw;
+           width: 100vw;
+         }
+         .ocean{
+           width: 143vw;
+         }
+         .iceberg1 img{
+           left: 20vw;
+         }
+         .iceberg2 img{
+           left: 63vw;
+         }
+         .t3{
+           width: 30vw;
+         }
 
 }
 
       @media all and (min-width: 1366px) and (max-width: 1439px) {
       /* air 11.6 */
+      .horizontal3{
+        width: 100vw;
+        margin: 0 0 0 0;
+        height: 30vh;
+      }
+      .title{
+        transform: scale(0.97);
+        top: 5vh;
+      }
+      .title p{
+        font-size: 30px;
+      }
+      .line{
+        transform: scale(0.8);
+        width: 47vw;
+        top: 1.5vh;
+        left: 54.5vw;
+      }
+      .horizontal4{
+        width: 100vw;
+        height: 154vh;
+        margin: 0 0 0 0;
+      }
+      .cloud p{
+        width: 60vw;
+        top: 2.3vh;
+        font-size: 26px;
+      }
+      .factory {
+        transform: scale(1);
+        top: 8.5vh;
+      }
+      .manylines{
+        transform: scale(0.78);
+        width: 73vw;
+        top: 56.5vh;
+        left: 32vw;
+      }
+      .windows{
+        transform: scale(0.77);
+        width: 70vw;
+        height: 70vh;
+        top: 26vh;
+        left: 34.5vw;
+      }
+      .horizontal{
+        width: 100vw;
+        height: 100vh;
+        margin: 0 0 0 0;
+      }
+      .side{
+        transform: scale(0.78);
+        left: -2vw;
+        top: 0;
+      }
+      .calc{
+        transform: scale(0.78);
+        left: 56.6vw;
+        top: 0;
+      }
+      .decor{left:4vw;
+      top: 75vh;}
+      .decor3{left:36vw;
+      top:67vh;}
+      .decor4{left:33vw;
+      top: 100vh;}
+      .triangle1{left: 35.3vw;
+      top: 35vh;}
+      .triangle2{left:0vw;
+      top:35vh;}
+
+      .conveyor2{
+        transform: scale(0.77);
+        margin: 4vh 0 0 -8.7vw;
+      }
+      .circles{
+        width: 110vw;
+      }
+      .mechanism{
+        transform: scale(0.76);
+        margin: -13vh 0 0 -9vw;
+        height: 92vh;
+        width: 100vw;
+      }
+      .dots{
+        width: 120vw;
+        height: 108vh;
+        left: 6.5vw;
+      }
+      .machine2 img{
+        top: 0vh;
+        left: 48vw;
+      }
+      .machine3 img{
+        top: 54vh;
+        left: 32vw;
+      }
+      .horizontal2{
+        width: 100vw;
+        margin: 0 0 0 -9.6vw;
+        height: 94vh;
+        transform: scale(0.74);
+      }
+      .tubes{
+        left: 75vw;
+      }
+      .horizontal5{
+        transform: scale(0.76);
+        margin: 0 0 0 -14.5vw;
+      }
+      .ocean{
+        width: 133vw;
+      }
+      .iceberg1 img{
+        left: 20vw;
+      }
+      .iceberg2 img{
+        left: 60vw;
+      }
+      .t3{
+        width: 30vw;
+      }
+
+
+
+      }
+      @media all and (min-width: 320px) and (max-width: 767px) {
+      /*iphone*/
+      .horizontal3{
+        width: 100vw;
+        margin: 0 0 0 0;
+        height:  20vh;
+      }
+      .title {
+        transform: scale(1.63);
+     top: 0vh;
+     left: 22vw;
+   }
+      .title img {
+     top: 9.4vh;}
+     .title p{
+       top: 3vh;
+       font-size: 12px;
+     }
+     .line{
+       display: none;
+     }
+     .horizontal4{
+       width: 100vw;
+       height: 120vh;
+       margin: 3vh 0 0 0;
+     }
+     .factory {
+       top: 35vh;
+       left: 15.6vw;
+       transform: scale(1.58);
+     }
+     .cloud img{
+       display: none;
+     }
+     .cloud p{
+       font-size: 7px;
+       line-height: 9px;
+       width: 65vw;
+       left: 13vw;
+       top: 1vh;
+     }
+     .cloud{
+       transform: scale(1.27);
+       left: 13vw;
+     }
+     .cloud22{
+       visibility: visible;
+       top: 20vh;
+       left: 30vw;
+     }
+     .windows{
+       transform: scale(0.23);
+       width: 100vw;
+       height: 200vh;
+       top:-60vh;
+       left: 27.5vw;
+     }
+     .window {
+       top: 0;
+       left: 0;
+       height: 61vh;
+       width: 72vw;
+       border: 40px solid #fff;
+       border-radius: 150px 150px 0 0;
+
+     }
+
+     .window2{
+       top:80vh;
+       left: 0;
+       width: 73vw;
+       height: 61vh;
+       border: 40px solid #fff;
+       border-radius: 150px 150px 0 0;
+     }
+     .window3{
+       top: 160vh;
+       left: 0;
+       width: 73vw;
+       height: 61vh;
+       border: 40px solid #fff;
+       border-radius: 150px 150px 0 0;
+     }
+     .manylines{
+      transform: scale(0.18);
+      width: 280vw;
+      top: -14vh;
+      left: -60vw;
+     }
+     .manylines *{
+       margin-left: 4vw;
+     }
+     .one img{
+       transform: scaleY(4.2);
+       transform-origin: top;
+     }
+     .two img{
+       transform: scaleY(4.2);
+       transform-origin: top;
+     }
+     .three img{
+       transform: scaleY(2.82);
+       transform-origin: top;
+     }
+     .four img{
+       transform: scaleY(2.82);
+       transform-origin: top;
+     }
+     .five img{
+       transform: scaleY(2.15);
+       transform-origin: top;
+     }
+     .six img{
+       transform: scaleY(2.15);
+       transform-origin: top;
+     }
+     .seven img{
+       transform: scaleY(2.15);
+       transform-origin: top;
+     }
+     .eight{
+       display: none;
+     }
+
+
       }
