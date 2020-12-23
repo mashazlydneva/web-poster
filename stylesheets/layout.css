@@ -85,6 +85,10 @@ html {
    font-size: 30px;
    line-height: 37px;
  }
+ .cloud22{
+   visibility: hidden;
+   position: absolute;
+ }
 
  .windows  {
    vertical-align: top;
@@ -303,6 +307,7 @@ html {
   width: 100%;
   animation: conveyor 10s linear infinite;
 }
+
 .conveyor-move:hover {
   animation-play-state: paused;
 }
@@ -412,20 +417,16 @@ height: 90%;
   margin: -1vh 0 0 0;
 
 }
-    .tube {
+    .tube img{
       position: absolute;
-      width: 653px;
-      height: 505px;
-      left: 150px;
-      top: 0px;
+      left: 15%;
+      top: 0;
 
     }
     .tubes {
       position: absolute;
-      width: 445.63px;
-      height: 431.21px;
-      left: 1024px;
-      top: 0px;
+      left: 60%;
+      top: 0;
     }
 
     .clouds {
@@ -484,6 +485,7 @@ height: 90%;
       height: 2600px; */
       margin: 0 0 0 0;
     }
+
     .icebergs{
       position: relative;
       /* width: 1790px; */
@@ -532,28 +534,23 @@ height: 90%;
 
     .iceberg1 img {
       position: absolute;
-      width: 423px;
-      height: 779px;
-      left: 228px;
-      top: -93px;
+      left: 13%;
+      top: -10vh;
     }
 
     .iceberg2 img {
       position: absolute;
-      width: 879px;
-      height: 1578px;
-      left: 823px;
-      top: -305px;
+      left: 46%;
+      top: -33.8vh;
     }
     .ocean {
       position: absolute;
       background: #3300FF;
-      width: 1790px;
+      width: 100%;
       height: 2455px;
-      top: 200px;
+      top: 22vh;
     }
     .floatingice {
-      display: block;
       position: absolute;
       width: 1790px;
       height: 1182px;
