@@ -288,6 +288,10 @@ html {
   left: 38.6%;
   top: 30.8%;
 }
+.rectangle{
+  position: absolute;
+  visibility:hidden;
+}
 
 
 .conveyor {

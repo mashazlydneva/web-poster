@@ -21,9 +21,9 @@
       height: 130vh;
       margin: 0 0 0 0;
     }
-    .cloud {transform: scale(0.75);
-    top: -5vh;
-    left: 20vh;}
+    .cloud {transform: scale(0.77);
+    top: -6vh;
+    left: 18vh;}
     .cloud p{
       width: 80vw;
       font-size: 26px;
@@ -149,36 +149,34 @@
 }
 
 
-/* @media all and (min-width: 500px) and (max-width: 767px) {
+@media all and (min-width: 500px) and (max-width: 767px) {
  .horizontal3 { width:100vw;
  margin: 0 0 0 0;
 height: 6vh;}
 
- .title { transform:scale(1.36);
- left: 13vw;
- top: 4vh;
+ .title { transform:scale(1.7);
+ left: 23vw;
+ top: 0vh;
  }
  .title p{
-   font-size: 20px;
-   top: -0vh;
+   font-size: 16px;
+   top: 1vh;
  }
  .title img{
    top: 6vh;
  }
- .line { transform:scale(0.2);
-top: -5vh;
-left: 65vw;
-width: 50vw;
+ .line { display: none;
 }
 .three1,.four1,.five1 {display:none;}
- .horizontal2{
+
+ .horizontal4{
    width: 100vw;
    margin: 0 0 0 0;
-   height: 50vh;
+   height: 58vh;
  }
- .cloud { transform: scale(0.38);
- left:0vw;
- top: -2vh;
+ .cloud { transform: scale(0.37);
+ left:2.1vw;
+ top: 12vh;
  }
  .cloud p{
    width: 180vw;
@@ -192,24 +190,155 @@ width: 50vw;
 .three1,.four1,.five1 {display:none;}
 
 .factory{
-  transform: scale(1.3);
-  top: 30vh;
-  left: 4vw;
+  transform: scale(1.1);
+  top: 21.5vh;
+  left: 5vw;
 }
 .manylines{
-  transform: scale(0.4);
-  top: 3vh;
-  left: -6vw;
-  width: 160vw;
+  transform: scale(0.32);
+  top: 31.5vh;
+  left: -12.5vw;
+  width: 166vw;
 }
-.seven,.eight {display:none;}
+.eight {display:none;}
 .windows{
   transform: scale(0.3);
   width: 190vw;
-  left: -29vw;
-  top: 10vh;
+  height: 50vh;
+  left: -20vw;
+  top: 11vh;
 }
-} */
+.window{
+  left: 0vw;
+}
+.window2{
+  left: 60vw;
+}
+.window3{
+  left: 120vw;
+}
+.horizontal{
+  width: 100vw;
+  height: 166vh;
+  margin: 0 0 0 0;
+}
+.side{
+  transform: scale(0.5);
+  top: -16vh;
+  left: -9vw;
+}
+.triangle1{
+  left: 0;
+  top: 35vh;
+}
+.triangle2{left:69vw;
+top:35vh;
+}
+.decor2 {left:8vw;
+top: 4vh;}
+.side p {left:8vw;
+  top: 16vh;
+width:160vw;}
+.side h1{left:8vw;
+  top: 10vh;
+width: 100vw;}
+.decor{left:5vw;
+top: 75vh;}
+.decor3{left:62vw;
+top:76vh;}
+.decor4{left: 90vw;
+top: 100vh;}
+.calc{
+  transform: scale(0.73);
+top: 64vh;
+left: -1vw;
+}
+.conveyor{
+  width: 100vw;
+  margin: -10vh 0 0 0;
+}
+.conveyor-move img{
+  transform: scale(0.5);
+}
+.conveyor2{
+  margin: -22vh 0 0 -32vw;
+  transform: scale(0.28);
+}
+.circles{
+  width: 300vw;
+  left: 14vw;
+}
+.mechanism{
+  margin: -4vh 0 0 -50vw;
+  width: 100vw;
+  height: 38vh;
+  transform: scale(0.42);
+}
+.background img{
+  transform: rotate(90deg);
+}
+.machine1 img{
+  left: 90vw;
+  top: -27vh;
+}
+.machine2 img{
+  left: 80vw;
+  top: 47vh;
+}
+.machine3 img{
+  left: 190vw;
+  top: 20vh;
+}
+  .dots{
+    height: 175vh;
+    left: 75vw;
+    top: -20vh;
+    width: 202vw;
+  }
+.horizontal2{
+  margin: 20vh 0 0 -36vw;
+  width: 100vw;
+  height: 50vh;
+  transform: scale(0.28);
+}
+.tubes{
+  left: 200vw;
+}
+.horizontal5{
+  margin: 0 0 0 -36vw;
+  transform: scale(0.28);
+  width: 100vw;
+}
+.ocean{
+  width: 359vw;
+}
+.iceberg1 img{
+  left: 55vw;
+}
+.iceberg2 img{
+  left: 165vw;
+}
+.t3{
+  width: 55vw;
+  top: 124vh;
+  left: 266vw;
+  font-size: 30px;
+}
+.t2{
+  width: 60vw;
+  top: 86vh;
+  left: 126vw;
+  font-size: 30px;
+}
+.t1{
+  width: 55vw;
+  top: 30vh;
+  left: 17vw;
+  font-size: 30px;
+}
+
+
+}
 
 @media all and (min-width: 768px) and (max-width: 892px) {
   /* ipad Portrait */
@@ -236,8 +365,8 @@ width: 50vw;
 .horizontal4 {width: 100vw;
 height: 110vh;
 margin: 0 0 0 0;}
-.cloud {transform:scale(0.55);
-left: 11vw;
+.cloud {transform:scale(0.545);
+left: 11.5vw;
 top: -9vh;}
 .cloud p {font-size:26px;
 width: 100vw;}
@@ -912,7 +1041,7 @@ top: -20.5vh;}
 
 
       }
-      @media all and (min-width: 320px) and (max-width: 767px) {
+      @media all and (min-width: 320px) and (max-width: 499px) {
       /*iphone*/
       .horizontal3{
         width: 100vw;
@@ -935,11 +1064,11 @@ top: -20.5vh;}
      }
      .horizontal4{
        width: 100vw;
-       height: 120vh;
+       height: 70vh;
        margin: 3vh 0 0 0;
      }
      .factory {
-       top: 35vh;
+       top: 27vh;
        left: 15.6vw;
        transform: scale(1.58);
      }
@@ -951,7 +1080,7 @@ top: -20.5vh;}
        line-height: 9px;
        width: 65vw;
        left: 13vw;
-       top: 1vh;
+       top: 0.5vh;
      }
      .cloud{
        transform: scale(1.27);
@@ -976,7 +1105,6 @@ top: -20.5vh;}
        width: 72vw;
        border: 40px solid #fff;
        border-radius: 150px 150px 0 0;
-
      }
 
      .window2{
@@ -998,7 +1126,7 @@ top: -20.5vh;}
      .manylines{
       transform: scale(0.18);
       width: 280vw;
-      top: -14vh;
+      top: -2vh;
       left: -60vw;
      }
      .manylines *{
@@ -1035,6 +1163,138 @@ top: -20.5vh;}
      .eight{
        display: none;
      }
-
-
-      }
+     .horizontal{
+       width: 100vw;
+       height: 166vh;
+       margin: 0vh 0 0 0;
+     }
+     .side{
+       transform: scale(0.34);
+       top: 84vh;
+       width: 300vw;
+       height: 200vh;
+       left: -99vw;
+       overflow: hidden;
+     }
+     .side p{
+       display: none;
+     }
+     .side h1{
+       display: none;
+     }
+     .bkg img{
+       position: absolute;
+       top: -65vh;
+     }
+     .decor{left:12vw;
+     top: 59vh;}
+     .decor2{
+       display: none;
+     }
+     .decor3{left:100vw;
+     top:50vh;}
+     .decor4{left:140vw;
+     top: 99vh;}
+     .triangle1{
+       left: 0;
+       top: 0;
+     }
+     .triangle2{
+       top: 0;
+       left: 109vw;
+     }
+     .rectangle{
+       visibility: visible;
+       top: 37vh;
+       left: 0;
+     }
+     .rectangle p{
+       position: absolute;
+       font-size: 14px;
+       line-height: 18px;
+       width: 90vw;
+       color: white;
+       top: 5vh;
+       left: 5vw;
+     }
+     .rectangle h1{
+       position: absolute;
+       font-size: 16px;
+       width: 90vw;
+       color: white;
+       top: 0vh;
+       left: 5vw;
+     }
+     .calc{
+       transform: scale(0.5);
+       top:15vh;
+       left: -9.5vw;
+     }
+     .conveyor{
+       margin: 0 0 0 0;
+       width: 100vw;
+       height: 90vh;
+     }
+     .conveyor-move img{
+       transform: scale(0.4);
+     }
+     .conveyor2{
+       margin: -25vh 0 0 -35vw;
+       transform: scale(0.17);
+    }
+     .circles{
+      margin: 0 0 0 0;
+      width: 470vw;
+      left: 10vw;
+     }
+     .mechanism{
+       margin: -39vh 0 0 -54vw;
+       width: 100vw;
+       height: 100vh;
+       transform: scale(0.25);
+     }
+     .background img{
+       transform: rotate(90deg);
+     }
+     .machine1 img{
+       left: 140vw;
+       top: -30vh;
+     }
+     .machine2 img{
+       left: 130vw;
+       top: 70vh;
+     }
+     .machine3 img{
+       left: 290vw;
+       top: 37vh;
+     }
+       .dots{
+         height: 270vh;
+         left:126vw;
+         top: -26vh;
+         width: 298vw;
+       }
+       .horizontal2{
+         margin: -44vh 0 0 -69vw;
+         transform: scale(0.177);
+       }
+       .tubes{
+         left: 310vw;
+       }
+       .horizontal5{
+         transform: scale(0.176);
+         margin: -30vh 0 0 -42vw;
+         width: 100vw;
+       }
+       .ocean{
+         width: 560vw;
+         height: 450vh;
+       }
+       .iceberg1 img{
+         left: 90vw;
+         top: -29vh;
+       }
+       .iceberg2 img{
+         left: 260vw;
+         top: -67vh;
+       }
